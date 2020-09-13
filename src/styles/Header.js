@@ -25,7 +25,7 @@ export const header = StyleSheet.create({
     duzenleTouch: {
         //marginTop: H(4),
         marginLeft: W(5),
-        height: 35,
+        padding: 7,
         justifyContent: 'center',
         alignItems: 'center',
         //borderWidth: 1,
@@ -39,17 +39,16 @@ export const header = StyleSheet.create({
 
     sohbetText: {
         color: 'white',
-        marginRight: W(7),
+        marginRight: W(10),
         fontSize: 18,
         fontWeight: 'bold',
         justifyContent: 'center'
     },
 
     ikonTouch: {
-        height: 40,
-        width: 40,
+        padding: 7,
         justifyContent: 'center',
         alignItems: 'center',
-        marginRight: W(1)
+        marginRight: W(2)
     }
 });
